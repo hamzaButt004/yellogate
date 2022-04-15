@@ -149,8 +149,8 @@ li p {
 .header .navbar-nav{margin-top:5px}
 .header .navbar-nav li{margin:0 4px; padding: 30px 15px;}
 .header .navbar-nav li a{text-transform: uppercase; font-weight:400;font-size:20px;padding:0px !important;color:#000!important}
-.header .navbar-nav li:hover a{color:#ffdeaf !important;}
-.header .navbar-nav li.active a { border-bottom: 4px solid #ffdeaf;}
+.header .navbar-nav li:hover a{color:#ffa624 !important;}
+.header .navbar-nav li.active a { border-bottom: 4px solid #ffa624;}
 
 .card p {font-size: 17px;}
 @media screen and (max-width: 900px){
