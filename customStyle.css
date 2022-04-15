@@ -164,7 +164,7 @@ li p {
 }
 @media screen and (max-width: 576px){
 /*.card p {font-size: 17px;}*/
-
+.conUs , .links {margin-top: 20px;}
 .primary_btn a {
     padding: 16px 30px;
   }
