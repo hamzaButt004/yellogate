@@ -70,7 +70,7 @@ h1,h2,h3,h4,h5,h6 {font-family: 'Oswald', sans-serif;}
 .primary_btn a:hover {
     background: #ffa624;
     color: #fff;
-    transform: translateY(-4px);
+ 
     outline: none;
     -webkit-transition: all .6s ease-in-out;
     -moz-transition: all .6s ease-in-out;
@@ -92,7 +92,7 @@ h1,h2,h3,h4,h5,h6 {font-family: 'Oswald', sans-serif;}
 -moz-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;}
 
 .card:hover {
-transform: translateY(-4px);
+
     outline: none;
     -webkit-transition: all .6s ease-in-out;
     -moz-transition: all .6s ease-in-out;
