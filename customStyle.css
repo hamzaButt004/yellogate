@@ -199,12 +199,7 @@ li p {
 }
 .contact_box {text-align: center;}
   
-/*   .header {position: fixed;
-    z-index: 111;
-    top: 0;
-    width: 100%;} */
 
-  .header {box-shadow: 0 0 3px 4px rgb(0 0 0 / 20%);}
     .header .navbar-nav li {
     padding: 14px 0;
 }
