@@ -1,2 +1,0 @@
-# yellogate
-Website for services
