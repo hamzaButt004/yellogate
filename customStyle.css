@@ -1,4 +1,4 @@
-  
+
 p , a , body {font-family: 'Source Sans Pro', sans-serif;}
 h1,h2,h3,h4,h5,h6 {font-family: 'Oswald', sans-serif;}
 
@@ -70,7 +70,7 @@ h1,h2,h3,h4,h5,h6 {font-family: 'Oswald', sans-serif;}
 .primary_btn a:hover {
     background: #ffa624;
     color: #fff;
-  transform: translateY(-4px);
+    transform: translateY(-4px);
     outline: none;
     -webkit-transition: all .6s ease-in-out;
     -moz-transition: all .6s ease-in-out;
@@ -92,7 +92,7 @@ h1,h2,h3,h4,h5,h6 {font-family: 'Oswald', sans-serif;}
 -moz-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;}
 
 .card:hover {
- transform: translateY(-4px);
+transform: translateY(-4px);
     outline: none;
     -webkit-transition: all .6s ease-in-out;
     -moz-transition: all .6s ease-in-out;
@@ -130,7 +130,7 @@ li p {
 
 
 .bggray {background: #ffa624;}
-  
+  .bglight {background: #f5f5f5;}
   
   
   
@@ -151,6 +151,7 @@ li p {
 .header .navbar-nav li a{text-transform: uppercase; font-weight:400;font-size:20px;padding:0px !important;color:#000!important}
 .header .navbar-nav li:hover a{color:#ffa624 !important;}
 .header .navbar-nav li.active a { border-bottom: 4px solid #ffa624;}
+/*div {overflow-x: hidden !important;}*/
 
 .card p {font-size: 17px;}
 @media screen and (max-width: 900px){
@@ -164,8 +165,14 @@ li p {
 }
 @media screen and (max-width: 576px){
 /*.card p {font-size: 17px;}*/
-  html , body {width:100%;overflow-x:hidden !important;}
 .conUs , .links {margin-top: 30px;}
+
+.font_size36 {
+    font-size: 24px;
+}
+.line_height47 {
+    line-height: 38px;
+}
 .primary_btn a {
     padding: 16px 30px;
   }
@@ -200,10 +207,18 @@ li p {
 }
 .contact_box {text-align: center;}
   
+ /* .header {position: fixed;
+    z-index: 111;
+    top: 0;
+    width: 100%;}*/
+
+    /*.header {box-shadow: 0 0 3px 4px rgb(0 0 0 / 20%);}*/
 
     .header .navbar-nav li {
     padding: 14px 0;
 }
+
+html , body {width:100%; overflow-x:hidden !important;}
 }
   
   .footer_bx {
@@ -214,4 +229,21 @@ li p {
 }
 
 .footer_bx a {text-decoration: none; color: #fff;}
-.footer_bx a:hover {text-decoration-style: underline; color: #ffa624; }
+.contact_box_page a {text-decoration: none; color: #000;}
+.footer_bx a:hover , .contact_box_page a:hover {text-decoration-style: underline; color: #ffa624; }
+
+
+
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:400px;
+    position:relative;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:500px;
+    width:100%;
+    position:absolute;
+}
